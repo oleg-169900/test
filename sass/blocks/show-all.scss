@@ -1,0 +1,32 @@
+.show-all {
+  position: relative;
+  z-index: 100;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 250px;
+  margin: 20px auto;
+
+  cursor: pointer;
+}
+
+.show-all__text {
+  font-size: 22px;
+  color: #1d2d5d;
+}
+
+.show-all::before {
+  content: "";
+
+  display: block;
+  width: 5px;
+  height: 5px;
+
+  border: 2px solid #1d2d5d;
+  border-top-color: rgba(255, 255, 255, 0);
+  border-left-color: rgba(255, 255, 255, 0);
+
+  transform: rotate(45deg);
+}

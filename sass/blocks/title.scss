@@ -1,0 +1,13 @@
+.title {
+  padding: 20px;
+  font-family: "RobotoLight", arial, sans-serif;
+  font-size: 35px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+@media (min-width: $tablet-width) {
+  .title {
+    text-align: left;
+  }
+}
